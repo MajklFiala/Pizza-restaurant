@@ -1,0 +1,130 @@
+.footerContainer{
+    background-color: black;
+    margin-top: auto;
+    padding-bottom: 4rem;
+
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40%;
+    color: white;
+    margin: 0 auto;
+    gap: 3%;
+
+}
+
+.footerAll{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    margin-right: 4rem;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+
+.footer-3{
+    width: 20%;
+}
+
+.footerAll a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 1rem;
+
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.footerAll h3{
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
+
+.footerAll p{
+    font-size: 18px;
+}
+
+.footer-1{
+    margin-top: 10rem;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-1 h3{
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: -5%;
+}
+
+.contactIcon{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 10%;
+}
+
+.contactIcon :last-child{
+    margin-top: 100%;
+}
+
+.Icon{
+    margin-bottom: 1rem;
+    margin-right: 10%;
+}
+
+.contactInfo{
+    width: 100%;
+}
+
+.contactInfo p{
+    margin-bottom: -0.1rem;
+}
+
+.hours{
+    display: flex;
+    flex-direction: column;
+}
+
+.hours p{
+    margin-bottom: -4%;
+}
+
+.allIcons .Icon{
+    font-size: 2rem;
+}
+
+
+.footer-2 a:hover{
+    color: rgba(199,199,199,1);
+}
+
+.footer-4 .Icon:hover{
+    color: rgba(199,199,199,1);
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 740px){
+    .footerAll{
+        width: 35%;
+    }
+
+    .footer{
+        justify-content: center;
+    }
+}

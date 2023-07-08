@@ -1,0 +1,17 @@
+.arrow{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    color: black;
+    border: solid;
+    background-color: rgb(220, 220, 220);
+    border-color: rgb(220, 220, 220);
+    border-radius: 10%;
+    cursor: pointer;
+    
+}
+
+.arrow:hover{
+    background-color: rgb(170, 170, 170);
+    border-color: rgb(170, 170, 170);
+}

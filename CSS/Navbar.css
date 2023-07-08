@@ -1,0 +1,134 @@
+.navbar{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.leftSideGone{
+    display:none;
+}
+
+.leftSide{
+    display: flex;
+    height: 100%;
+    flex: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.leftSide h3{
+    color: white;
+}
+
+.leftSide img{
+    width: 50px;
+    height: 50px;
+    padding-right: 20px;
+}
+
+.navbar .rightSide{
+    display: flex;
+    height: 100%;
+    flex: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSide a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.rightSide a:hover{
+    text-decoration:underline;
+    text-decoration-color: rgb(212, 212, 212);
+    text-underline-offset: 5px;
+    color: rgb(212, 212, 212);
+
+}
+
+@media screen and (max-width: 470px){
+    .SmallMenu a{
+        font-size: 12px !important;
+        margin: 5px !important;
+        left: 10px !important;
+    }
+    .menuIcon{
+        right:20px !important;
+    }
+
+
+}
+
+@media screen and (max-width: 355px){
+    .SmallMenu a{
+        font-size: 10px !important;
+        margin: 5px !important;
+    }
+    .menuIcon{
+        right:10px !important;
+    }
+
+
+}
+.smallMenu{
+    display: none;
+}
+
+@media screen and (min-width: 740px){
+    .SmallMenu{
+        display:none;
+    }
+    
+}
+
+.SmallMenu .navbar{  
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.SmallMenu a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+
+
+}
+
+.SmallMenu a:hover{
+    text-decoration:underline;
+    text-decoration-color: rgb(212, 212, 212);
+    text-underline-offset: 5px;
+    color: rgb(212, 212, 212);
+}
+
+.menuIcon{
+    display: none;
+}
+
+@media screen and (max-width: 740px){
+    .navbar .menuIcon{
+        display: initial;
+        color: white;
+        position: relative;
+        top: 30px;
+        right: 30px;
+        
+    }
+
+    .navbar .rightSide{
+        display: none;
+    }
+}
+

@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.GridOfPizza{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-content: center;
+
+}
+
+.GridOfPizza > div{
+    margin: 2%;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+
+.order{
+    font-size: 40px;
+    font-weight: bold;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left-color: white;
+    border-right-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 10rem;
+    text-align: center;
+    
+
+}
+
+.ArrowForward{
+    position: relative;
+    top: 25px;
+    cursor: pointer;
+    
+
+}
+
+.ArrowBack{
+    position: relative;
+    top: 24px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.forward{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 15%;
+}
+
+.back{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 15%;
+}
+
+.back:hover{
+    border-color:rgb(143, 143, 143);
+    color: rgb(143, 143, 143);
+}
+
+.forward:hover{
+    border-color:rgb(143, 143, 143);
+    color: rgb(143, 143, 143);
+}
